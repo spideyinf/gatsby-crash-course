@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
@@ -32,8 +32,8 @@ const Menu = () => (
         </Link>
       </li>
       <li>
-        <Link className="menu-list-item" to="/">
-          Home
+        <Link className="menu-list-item" to="/blog">
+          Blog
         </Link>
       </li>
     </ul>
